@@ -1,3 +1,28 @@
+# USER STORIES:
+
+## As a Jedi
+
+** I want to see a list of all active Sith, so that I know which enemies remain.
+** I want to mark a Sith as vanquished/show the Jedi that defeated him to track my progress.
+\*\* I want delete Sith from the list entirely, so that I can keep my list clean.
+
+# CONTAINER AND PRESENTATIONAL COMPONENTS:
+
+## CONTAINER
+
+** APP
+** SITH LIST CONTAINER
+\*\* CONTACT FORM CONTAINER
+
+## PRESENTATIONAL
+
+** SITH LIST
+** SITH CARD
+** VANQUISH BUTTON
+** DELETE BUTTON
+** EMPTY STATE, ALL SITH VANQUISHED
+** CONTACT FORM
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
