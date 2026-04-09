@@ -4,7 +4,10 @@ function SithList({ sith }) {
   return (
     <div>
       {sith.map((oneSith) => (
-        <p key={oneSith.id}>{oneSith.name}</p>
+        <div key={oneSith.id}>
+          <p>{oneSith.name}</p>
+          <img src={oneSith.sithImage} alt={oneSith.name} width="200" />
+        </div>
       ))}
     </div>
   );
