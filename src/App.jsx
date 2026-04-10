@@ -33,13 +33,26 @@ function App() {
       jediImage: "/Project3_React/Images/Rey.jpg",
     },
   ]);
+  const vanquishSith = (id) => {
+    setSith(
+      sith.map((oneSith) =>
+        oneSith.id === id ? { ...oneSith, vanquished: true } : oneSith,
+      ),
+    );
+  };
 
+  const deleteSith = (id) => {
+    setSith(sith.filter((oneSith) => oneSith.id !== id));
+  };
   return (
     <div>
       <h1>Vanquish the Sith!</h1>
-      <SithList sith={sith} />
+      <SithList
+        sith={sith}
+        vanquishSith={vanquishSith}
+        deleteSith={deleteSith}
+      />
     </div>
   );
 }
-
 export default App;

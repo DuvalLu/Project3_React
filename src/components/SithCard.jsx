@@ -1,14 +1,14 @@
-function SithCard({ sith }) {
+function SithCard({ sith, vanquishSith, deleteSith }) {
   return (
     <div>
       <img
         src={sith.vanquished ? sith.jediImage : sith.sithImage}
         alt={sith.name}
-        width="250"
+        width="200"
       />
       <h2>{sith.name}</h2>
-      <button>Vanquish</button>
-      <button>Delete</button>
+      <button onClick={() => vanquishSith(sith.id)}>Vanquish</button>
+      <button onClick={() => deleteSith(sith.id)}>Delete</button>
     </div>
   );
 }
