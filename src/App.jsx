@@ -1,7 +1,6 @@
 import { useState } from "react";
 import SithList from "./components/SithList";
 import AddSith from "./components/AddSith";
-import SithShowcase from "./components/SithShowcase";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./pages/Contact";
@@ -70,7 +69,7 @@ function App() {
           element={
             <>
               <h1>Vanquish the Sith!</h1>
-              <SithShowcase roster={SITH_ROSTER} />
+
               <AddSith roster={SITH_ROSTER} addSith={addSith} />
               <SithList
                 sith={sith}

@@ -27,27 +27,6 @@ h1 {
   text-transform: uppercase;
 }
 
-.showcase {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-.showcase-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.showcase-card img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-}
-
 .vanquish-list {
   display: flex;
   justify-content: center;
@@ -123,11 +102,6 @@ h1 {
     letter-spacing: 3px;
   }
 
-  .showcase-card img {
-    width: 130px;
-    height: 130px;
-  }
-
   .sith-card img {
     width: 130px;
     height: 130px;
@@ -143,16 +117,6 @@ h1 {
     font-size: 3rem;
     letter-spacing: 4px;
     padding: 2rem;
-  }
-
-  .showcase {
-    gap: 2rem;
-    padding: 2rem;
-  }
-
-  .showcase-card img {
-    width: 200px;
-    height: 200px;
   }
 
   .vanquish-list {
