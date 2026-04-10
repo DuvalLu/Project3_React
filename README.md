@@ -1,12 +1,12 @@
-#Luis Velasquez
+# Luis Velasquez
 
-#This project is fun Star Wars themed web application where you vanquish the Sith. It has two pages: Vanquish the Sith & Contact a Force Ghost. In 'Vanquish the Sith' you select all the Sith from the dropdown; you then have buttons to either vanquish or delete them. As you vanquish the Sith, the Jedi that actually defeated them in Star Wars lore appears. Once all four Sith have been vanquished you are met with a message: "PEACE HAS BEEN RESTORED TO THE GALAXY". The 'Contact a force ghost' page is a basic form. Once information is entered you receive a message letting you know that "Force Ghost contacted!".
+# This project is fun Star Wars themed web application where you vanquish the Sith. It has two pages: Vanquish the Sith & Contact a Force Ghost. In 'Vanquish the Sith' you select all the Sith from the dropdown; you then have buttons to either vanquish or delete them. As you vanquish the Sith, the Jedi that actually defeated them in Star Wars lore appears. Once all four Sith have been vanquished you are met with a message: "PEACE HAS BEEN RESTORED TO THE GALAXY". The 'Contact a force ghost' page is a basic form. Once information is entered you receive a message letting you know that "Force Ghost contacted!".
 
-#HOW TO USE: Navigate to page. In the navbar that spans the top of screen, you will see two options to the top, far right: Vanquish the Sith & Contact a Force Ghost. Choose 'Vanquish a Sith'. Now Click the drop down/search feature and choose each Sith name one by one. Choose one, press ADD button. Do this until all four appear on the page. Now all four Sith will be on the page. You will have buttons underneath each respectively: Vanquish or Delete. You can delete if needed. Your goal is to press 'Vanquish' on all four Sith. You will be promted that peace has been restored to the galaxy. To use the 'Contact a Force Ghost' feature, navigate to the top, far right of the nav bar again. Click 'Contact a Force Ghost'. You are presented with a form to fill out. Fill out your name, email, and any comments you have. Click Submit. Once completed you will be prompted that a force ghost has been contacted.
+# HOW TO USE: Navigate to page. In the navbar that spans the top of screen, you will see two options to the top, far right: Vanquish the Sith & Contact a Force Ghost. Choose 'Vanquish a Sith'. Now Click the drop down/search feature and choose each Sith name one by one. Choose one, press ADD button. Do this until all four appear on the page. Now all four Sith will be on the page. You will have buttons underneath each respectively: Vanquish or Delete. You can delete if needed. Your goal is to press 'Vanquish' on all four Sith. You will be promted that peace has been restored to the galaxy. To use the 'Contact a Force Ghost' feature, navigate to the top, far right of the nav bar again. Click 'Contact a Force Ghost'. You are presented with a form to fill out. Fill out your name, email, and any comments you have. Click Submit. Once completed you will be prompted that a force ghost has been contacted.
 
-##Technologies Used: Javascript, React, JSX, Bootstrap, CSS, HTML
+## Technologies Used: Javascript, React, JSX, Bootstrap, CSS, HTML
 
-##Ideas for future improvement:
+## Ideas for future improvement:
 
 1. Add a task that must be completed to vanquish a Sith. Math problem, Coding question, etc.
 2. Access to a larger database of Sith that the user can type and find for additional vanquishes.
