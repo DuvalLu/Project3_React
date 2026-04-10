@@ -6,14 +6,14 @@ function SithList({ sith, vanquishSith, deleteSith }) {
 
   if (allVanquished) {
     return (
-      <div>
+      <div className="vanquish-list">
         <h2>Peace has been restored to the galaxy!</h2>
       </div>
     );
   }
 
   return (
-    <div>
+    <div className="vanquish-list">
       {sith.map((oneSith) => (
         <SithCard
           key={oneSith.id}

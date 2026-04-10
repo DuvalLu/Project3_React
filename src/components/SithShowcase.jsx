@@ -2,10 +2,11 @@ function SithShowcase({ roster }) {
   return (
     <div>
       <h2>The Sith</h2>
-      <div>
+
+      <div className="showcase-card">
         {roster.map((oneSith) => (
           <div key={oneSith.id}>
-            <img src={oneSith.sithImage} alt={oneSith.name} width="200" />
+            <img src={oneSith.sithImage} alt={oneSith.name} />
             <h3>{oneSith.name}</h3>
           </div>
         ))}
