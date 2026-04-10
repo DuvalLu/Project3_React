@@ -2,8 +2,9 @@ import { useState } from "react";
 import SithList from "./components/SithList";
 import AddSith from "./components/AddSith";
 import SithShowcase from "./components/SithShowcase";
-import SithCard from "./components/SithCard";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Contact from "./pages/Contact";
 import "./App.css";
 
 const SITH_ROSTER = [
@@ -62,14 +63,26 @@ function App() {
   return (
     <div>
       <Navbar />
-      <h1>Vanquish the Sith!</h1>
-      <SithShowcase roster={SITH_ROSTER} />
-      <AddSith roster={SITH_ROSTER} addSith={addSith} />
-      <SithList
-        sith={sith}
-        vanquishSith={vanquishSith}
-        deleteSith={deleteSith}
-      />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <h1>Vanquish the Sith!</h1>
+              <SithShowcase roster={SITH_ROSTER} />
+              <AddSith roster={SITH_ROSTER} addSith={addSith} />
+              <SithList
+                sith={sith}
+                vanquishSith={vanquishSith}
+                deleteSith={deleteSith}
+              />
+            </>
+          }
+        />
+
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
