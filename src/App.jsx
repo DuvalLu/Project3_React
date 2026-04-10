@@ -2,6 +2,8 @@ import { useState } from "react";
 import SithList from "./components/SithList";
 import AddSith from "./components/AddSith";
 import SithShowcase from "./components/SithShowcase";
+import SithCard from "./components/SithCard";
+import Navbar from "./components/NavBar";
 import "./App.css";
 
 const SITH_ROSTER = [
@@ -59,6 +61,7 @@ function App() {
 
   return (
     <div>
+      <Navbar />
       <h1>Vanquish the Sith!</h1>
       <SithShowcase roster={SITH_ROSTER} />
       <AddSith roster={SITH_ROSTER} addSith={addSith} />
