@@ -23,7 +23,7 @@ function Contact() {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Contact Page</h1>
+      <h1>Contact a Force Ghost</h1>
 
       <form onSubmit={handleSubmit}>
         <input

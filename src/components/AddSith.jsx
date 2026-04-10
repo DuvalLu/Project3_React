@@ -12,7 +12,7 @@ function AddSith({ roster, addSith }) {
   return (
     <div>
       <select value={selected} onChange={(e) => setSelected(e.target.value)}>
-        <option value="">Enter villain to vanquish for a surprise...</option>
+        <option value="">Enter Sith one by one, then vanquish them!</option>
         {roster.map((oneSith) => (
           <option key={oneSith.id} value={oneSith.id}>
             {oneSith.name}

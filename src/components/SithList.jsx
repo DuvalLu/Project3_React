@@ -7,7 +7,7 @@ function SithList({ sith, vanquishSith, deleteSith }) {
   if (allVanquished) {
     return (
       <div className="vanquish-list">
-        <h2>Peace has been restored to the galaxy!</h2>
+        <h2 className="victory">Peace has been restored to the galaxy!</h2>
       </div>
     );
   }

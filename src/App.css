@@ -6,8 +6,17 @@
 
 body {
   font-family: "Times New Roman", serif;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
   background-color: #0a0a0a;
   color: #ff2200;
+  background-image: url("/Project3_React/Images/PlanetSky.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -30,6 +39,14 @@ h1 {
   align-items: center;
   gap: 0.5rem;
 }
+
+.sith-card h2 {
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .sith-card img {
   width: 200px;
   height: 200px;
@@ -51,14 +68,51 @@ h1 {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
+
 .victory {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 3rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: lightblue;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .showcase-card img {
   width: 200px;
   height: 200px;
   object-fit: cover;
+}
+.showcase {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.showcase-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
 }
