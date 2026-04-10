@@ -1,7 +1,8 @@
 import SithCard from "./SithCard";
 
 function SithList({ sith, vanquishSith, deleteSith }) {
-  const allVanquished = sith.every((oneSith) => oneSith.vanquished === true);
+  const allVanquished =
+    sith.length === 4 && sith.every((oneSith) => oneSith.vanquished === true);
 
   if (allVanquished) {
     return (
